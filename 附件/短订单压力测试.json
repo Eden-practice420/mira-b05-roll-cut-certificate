@@ -1,0 +1,4619 @@
+{
+  "seed": 59281,
+  "adversarial": {
+    "input": {
+      "lot": "三卷无整配",
+      "stock": 1000,
+      "kerf": 2,
+      "parts": [
+        488,
+        488,
+        488,
+        358,
+        338,
+        328,
+        288,
+        214
+      ]
+    },
+    "bound": 3,
+    "optimum": 4,
+    "production_plan": [
+      [
+        488,
+        488
+      ],
+      [
+        488,
+        358
+      ],
+      [
+        338,
+        328,
+        288
+      ],
+      [
+        214
+      ]
+    ],
+    "oracle_plan": [
+      [
+        488
+      ],
+      [
+        488,
+        488
+      ],
+      [
+        358,
+        338
+      ],
+      [
+        328,
+        288,
+        214
+      ]
+    ],
+    "search": [
+      {
+        "rolls": 3,
+        "feasible": false,
+        "distinct_states": 20
+      },
+      {
+        "rolls": 4,
+        "feasible": true,
+        "distinct_states": 8
+      }
+    ]
+  },
+  "original_orders": [
+    {
+      "input": {
+        "lot": "试样卷",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          600,
+          500,
+          300,
+          200,
+          200,
+          200
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          600,
+          200,
+          200
+        ],
+        [
+          500,
+          300,
+          200
+        ]
+      ],
+      "oracle_plan": [
+        [
+          600,
+          200,
+          200
+        ],
+        [
+          500,
+          300,
+          200
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "同一订单加刀缝",
+        "stock": 1000,
+        "kerf": 2,
+        "parts": [
+          600,
+          500,
+          300,
+          200,
+          200,
+          200
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          600,
+          300
+        ],
+        [
+          500,
+          200,
+          200
+        ],
+        [
+          200
+        ]
+      ],
+      "oracle_plan": [
+        [
+          600
+        ],
+        [
+          500
+        ],
+        [
+          300,
+          200,
+          200,
+          200
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "异规格短单",
+        "stock": 1200,
+        "kerf": 3,
+        "parts": [
+          710,
+          680,
+          510,
+          480,
+          470,
+          300,
+          290,
+          220,
+          215,
+          120,
+          95,
+          85
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          710,
+          480
+        ],
+        [
+          680,
+          510
+        ],
+        [
+          470,
+          300,
+          290,
+          120
+        ],
+        [
+          220,
+          215,
+          95,
+          85
+        ]
+      ],
+      "oracle_plan": [
+        [
+          710
+        ],
+        [
+          680,
+          510
+        ],
+        [
+          480,
+          470,
+          220
+        ],
+        [
+          300,
+          290,
+          215,
+          120,
+          95,
+          85
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 12
+        }
+      ]
+    }
+  ],
+  "random_summary": {
+    "n": 80,
+    "agreed": 80,
+    "bound_unattainable": 16,
+    "worst_gap": 2
+  },
+  "random_orders": [
+    {
+      "input": {
+        "lot": "stress-01",
+        "stock": 1000,
+        "kerf": 1,
+        "parts": [
+          419,
+          548,
+          176,
+          436
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          548,
+          436
+        ],
+        [
+          419,
+          176
+        ]
+      ],
+      "oracle_plan": [
+        [
+          419,
+          548
+        ],
+        [
+          176,
+          436
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-02",
+        "stock": 250,
+        "kerf": 1,
+        "parts": [
+          30,
+          169,
+          38,
+          111,
+          140,
+          121,
+          82,
+          75,
+          72,
+          46
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          169,
+          75
+        ],
+        [
+          140,
+          82
+        ],
+        [
+          121,
+          111
+        ],
+        [
+          72,
+          46,
+          38,
+          30
+        ]
+      ],
+      "oracle_plan": [
+        [
+          30,
+          169
+        ],
+        [
+          38,
+          111,
+          82
+        ],
+        [
+          140,
+          75
+        ],
+        [
+          121,
+          72,
+          46
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-03",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          532,
+          344,
+          475
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          532,
+          344
+        ],
+        [
+          475
+        ]
+      ],
+      "oracle_plan": [
+        [
+          532
+        ],
+        [
+          344,
+          475
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-04",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          66,
+          45,
+          18,
+          12,
+          65,
+          26,
+          45,
+          41,
+          34
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          66,
+          34
+        ],
+        [
+          65,
+          26
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          41,
+          18,
+          12
+        ]
+      ],
+      "oracle_plan": [
+        [
+          66
+        ],
+        [
+          45,
+          18,
+          26
+        ],
+        [
+          12,
+          45,
+          41
+        ],
+        [
+          65,
+          34
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-05",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          20,
+          43,
+          46,
+          35,
+          30,
+          17
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          46,
+          35,
+          17
+        ],
+        [
+          43,
+          30,
+          20
+        ]
+      ],
+      "oracle_plan": [
+        [
+          20,
+          43,
+          35
+        ],
+        [
+          46,
+          30,
+          17
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-06",
+        "stock": 250,
+        "kerf": 2,
+        "parts": [
+          87,
+          79,
+          146,
+          152
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          152,
+          87
+        ],
+        [
+          146,
+          79
+        ]
+      ],
+      "oracle_plan": [
+        [
+          87,
+          146
+        ],
+        [
+          79,
+          152
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-07",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          63,
+          19,
+          60,
+          47
+        ]
+      },
+      "bound": 2,
+      "optimum": 3,
+      "production_plan": [
+        [
+          63,
+          19
+        ],
+        [
+          60
+        ],
+        [
+          47
+        ]
+      ],
+      "oracle_plan": [
+        [
+          63
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          47
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": false,
+          "distinct_states": 3
+        },
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-08",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          214,
+          111,
+          249,
+          193,
+          232
+        ]
+      },
+      "bound": 2,
+      "optimum": 3,
+      "production_plan": [
+        [
+          249,
+          232
+        ],
+        [
+          214,
+          193
+        ],
+        [
+          111
+        ]
+      ],
+      "oracle_plan": [
+        [
+          214
+        ],
+        [
+          111,
+          249
+        ],
+        [
+          193,
+          232
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": false,
+          "distinct_states": 10
+        },
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-09",
+        "stock": 500,
+        "kerf": 3,
+        "parts": [
+          65,
+          118,
+          239,
+          310,
+          225,
+          327,
+          213,
+          346,
+          324,
+          289
+        ]
+      },
+      "bound": 5,
+      "optimum": 7,
+      "production_plan": [
+        [
+          346,
+          118
+        ],
+        [
+          327,
+          65
+        ],
+        [
+          324
+        ],
+        [
+          310
+        ],
+        [
+          289
+        ],
+        [
+          239,
+          225
+        ],
+        [
+          213
+        ]
+      ],
+      "oracle_plan": [
+        [
+          65,
+          239
+        ],
+        [
+          118,
+          310
+        ],
+        [
+          225,
+          213
+        ],
+        [
+          327
+        ],
+        [
+          346
+        ],
+        [
+          324
+        ],
+        [
+          289
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 5,
+          "feasible": false,
+          "distinct_states": 6
+        },
+        {
+          "rolls": 6,
+          "feasible": false,
+          "distinct_states": 8
+        },
+        {
+          "rolls": 7,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-10",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          71,
+          185,
+          240,
+          281,
+          125,
+          78,
+          193,
+          226,
+          260,
+          96
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          281,
+          193
+        ],
+        [
+          260,
+          240
+        ],
+        [
+          226,
+          185,
+          78
+        ],
+        [
+          125,
+          96,
+          71
+        ]
+      ],
+      "oracle_plan": [
+        [
+          71,
+          240
+        ],
+        [
+          185,
+          281
+        ],
+        [
+          125,
+          78,
+          193,
+          96
+        ],
+        [
+          226,
+          260
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-11",
+        "stock": 500,
+        "kerf": 2,
+        "parts": [
+          340,
+          342,
+          238
+        ]
+      },
+      "bound": 2,
+      "optimum": 3,
+      "production_plan": [
+        [
+          342
+        ],
+        [
+          340
+        ],
+        [
+          238
+        ]
+      ],
+      "oracle_plan": [
+        [
+          340
+        ],
+        [
+          342
+        ],
+        [
+          238
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": false,
+          "distinct_states": 3
+        },
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-12",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          155,
+          420,
+          159,
+          329,
+          163,
+          428,
+          231,
+          289
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          428,
+          420
+        ],
+        [
+          329,
+          289,
+          231
+        ],
+        [
+          163,
+          159,
+          155
+        ]
+      ],
+      "oracle_plan": [
+        [
+          155,
+          420
+        ],
+        [
+          159,
+          329,
+          163
+        ],
+        [
+          428,
+          231,
+          289
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-13",
+        "stock": 1000,
+        "kerf": 1,
+        "parts": [
+          455,
+          295,
+          547,
+          469,
+          562,
+          517,
+          407,
+          302,
+          470,
+          294
+        ]
+      },
+      "bound": 5,
+      "optimum": 5,
+      "production_plan": [
+        [
+          562,
+          407
+        ],
+        [
+          547,
+          302
+        ],
+        [
+          517,
+          470
+        ],
+        [
+          469,
+          455
+        ],
+        [
+          295,
+          294
+        ]
+      ],
+      "oracle_plan": [
+        [
+          455,
+          295
+        ],
+        [
+          547,
+          407
+        ],
+        [
+          469,
+          517
+        ],
+        [
+          562,
+          302
+        ],
+        [
+          470,
+          294
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-14",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          16,
+          51,
+          62,
+          33,
+          38,
+          28
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          62,
+          38
+        ],
+        [
+          51,
+          33,
+          16
+        ],
+        [
+          28
+        ]
+      ],
+      "oracle_plan": [
+        [
+          16,
+          51
+        ],
+        [
+          62
+        ],
+        [
+          33,
+          38,
+          28
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-15",
+        "stock": 250,
+        "kerf": 0,
+        "parts": [
+          95,
+          33,
+          74,
+          175,
+          94,
+          43
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          175,
+          74
+        ],
+        [
+          95,
+          94,
+          43
+        ],
+        [
+          33
+        ]
+      ],
+      "oracle_plan": [
+        [
+          95
+        ],
+        [
+          33,
+          175
+        ],
+        [
+          74,
+          94,
+          43
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-16",
+        "stock": 100,
+        "kerf": 3,
+        "parts": [
+          25,
+          24,
+          22,
+          22,
+          42,
+          13,
+          41,
+          28
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          42,
+          41
+        ],
+        [
+          28,
+          25,
+          24,
+          13
+        ],
+        [
+          22,
+          22
+        ]
+      ],
+      "oracle_plan": [
+        [
+          25,
+          24
+        ],
+        [
+          22,
+          22,
+          42
+        ],
+        [
+          13,
+          41,
+          28
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-17",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          624,
+          317,
+          533,
+          569,
+          625,
+          470,
+          349,
+          353
+        ]
+      },
+      "bound": 4,
+      "optimum": 5,
+      "production_plan": [
+        [
+          625,
+          353
+        ],
+        [
+          624,
+          349
+        ],
+        [
+          569,
+          317
+        ],
+        [
+          533
+        ],
+        [
+          470
+        ]
+      ],
+      "oracle_plan": [
+        [
+          624
+        ],
+        [
+          317,
+          533
+        ],
+        [
+          569
+        ],
+        [
+          625,
+          349
+        ],
+        [
+          470,
+          353
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": false,
+          "distinct_states": 5
+        },
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-18",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          300,
+          271,
+          112,
+          235,
+          180,
+          77,
+          85,
+          68
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          300,
+          180
+        ],
+        [
+          271,
+          112,
+          85
+        ],
+        [
+          235,
+          77,
+          68
+        ]
+      ],
+      "oracle_plan": [
+        [
+          300,
+          112
+        ],
+        [
+          271,
+          180
+        ],
+        [
+          235,
+          77,
+          85,
+          68
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-19",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          217,
+          50,
+          320,
+          102,
+          298,
+          213,
+          82,
+          150,
+          122
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          320,
+          150
+        ],
+        [
+          298,
+          122,
+          50
+        ],
+        [
+          217,
+          213
+        ],
+        [
+          102,
+          82
+        ]
+      ],
+      "oracle_plan": [
+        [
+          217
+        ],
+        [
+          50,
+          320
+        ],
+        [
+          102,
+          298,
+          82
+        ],
+        [
+          213,
+          150,
+          122
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-20",
+        "stock": 100,
+        "kerf": 3,
+        "parts": [
+          12,
+          46,
+          65,
+          68,
+          38,
+          50,
+          26,
+          26,
+          27
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          68,
+          27
+        ],
+        [
+          65,
+          26
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          38,
+          26,
+          12
+        ]
+      ],
+      "oracle_plan": [
+        [
+          12,
+          65
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          68,
+          26
+        ],
+        [
+          38,
+          26,
+          27
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-21",
+        "stock": 500,
+        "kerf": 3,
+        "parts": [
+          338,
+          165,
+          258,
+          263,
+          245,
+          113,
+          284,
+          76
+        ]
+      },
+      "bound": 4,
+      "optimum": 5,
+      "production_plan": [
+        [
+          338,
+          113
+        ],
+        [
+          284,
+          165
+        ],
+        [
+          263,
+          76
+        ],
+        [
+          258
+        ],
+        [
+          245
+        ]
+      ],
+      "oracle_plan": [
+        [
+          338
+        ],
+        [
+          165,
+          258
+        ],
+        [
+          263
+        ],
+        [
+          245
+        ],
+        [
+          113,
+          284,
+          76
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": false,
+          "distinct_states": 5
+        },
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-22",
+        "stock": 250,
+        "kerf": 2,
+        "parts": [
+          45,
+          130,
+          107
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          130,
+          107
+        ],
+        [
+          45
+        ]
+      ],
+      "oracle_plan": [
+        [
+          45
+        ],
+        [
+          130,
+          107
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-23",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          157,
+          314,
+          83,
+          328,
+          343,
+          122,
+          214,
+          339
+        ]
+      },
+      "bound": 4,
+      "optimum": 5,
+      "production_plan": [
+        [
+          343,
+          157
+        ],
+        [
+          339,
+          122
+        ],
+        [
+          328,
+          83
+        ],
+        [
+          314
+        ],
+        [
+          214
+        ]
+      ],
+      "oracle_plan": [
+        [
+          157,
+          314
+        ],
+        [
+          83,
+          328
+        ],
+        [
+          343
+        ],
+        [
+          122,
+          214
+        ],
+        [
+          339
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": false,
+          "distinct_states": 5
+        },
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-24",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          613,
+          665,
+          349,
+          310,
+          155
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          665,
+          310
+        ],
+        [
+          613,
+          349
+        ],
+        [
+          155
+        ]
+      ],
+      "oracle_plan": [
+        [
+          613
+        ],
+        [
+          665
+        ],
+        [
+          349,
+          310,
+          155
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-25",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          20,
+          45,
+          49,
+          47,
+          23,
+          64,
+          34,
+          28,
+          42
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          64,
+          34
+        ],
+        [
+          49,
+          47
+        ],
+        [
+          45,
+          42
+        ],
+        [
+          28,
+          23,
+          20
+        ]
+      ],
+      "oracle_plan": [
+        [
+          20,
+          45
+        ],
+        [
+          49,
+          47
+        ],
+        [
+          23,
+          34,
+          42
+        ],
+        [
+          64,
+          28
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-26",
+        "stock": 250,
+        "kerf": 2,
+        "parts": [
+          111,
+          76,
+          40
+        ]
+      },
+      "bound": 1,
+      "optimum": 1,
+      "production_plan": [
+        [
+          111,
+          76,
+          40
+        ]
+      ],
+      "oracle_plan": [
+        [
+          111,
+          76,
+          40
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 1,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-27",
+        "stock": 250,
+        "kerf": 3,
+        "parts": [
+          75,
+          64,
+          158
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          158,
+          75
+        ],
+        [
+          64
+        ]
+      ],
+      "oracle_plan": [
+        [
+          75
+        ],
+        [
+          64,
+          158
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-28",
+        "stock": 250,
+        "kerf": 1,
+        "parts": [
+          171,
+          118,
+          142,
+          58,
+          62
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          171,
+          62
+        ],
+        [
+          142,
+          58
+        ],
+        [
+          118
+        ]
+      ],
+      "oracle_plan": [
+        [
+          171
+        ],
+        [
+          118,
+          58
+        ],
+        [
+          142,
+          62
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-29",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          692,
+          631,
+          380,
+          517,
+          259,
+          655,
+          271,
+          327,
+          328,
+          111
+        ]
+      },
+      "bound": 5,
+      "optimum": 5,
+      "production_plan": [
+        [
+          692,
+          271
+        ],
+        [
+          655,
+          328
+        ],
+        [
+          631,
+          327
+        ],
+        [
+          517,
+          380
+        ],
+        [
+          259,
+          111
+        ]
+      ],
+      "oracle_plan": [
+        [
+          692
+        ],
+        [
+          631
+        ],
+        [
+          380,
+          517
+        ],
+        [
+          259,
+          271,
+          327,
+          111
+        ],
+        [
+          655,
+          328
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-30",
+        "stock": 100,
+        "kerf": 3,
+        "parts": [
+          61,
+          47,
+          22,
+          33,
+          24
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          61,
+          33
+        ],
+        [
+          47,
+          24,
+          22
+        ]
+      ],
+      "oracle_plan": [
+        [
+          61,
+          33
+        ],
+        [
+          47,
+          22,
+          24
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-31",
+        "stock": 500,
+        "kerf": 1,
+        "parts": [
+          88,
+          297,
+          181,
+          201,
+          235,
+          113
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          297,
+          201
+        ],
+        [
+          235,
+          181
+        ],
+        [
+          113,
+          88
+        ]
+      ],
+      "oracle_plan": [
+        [
+          88,
+          297
+        ],
+        [
+          181,
+          201
+        ],
+        [
+          235,
+          113
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-32",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          227,
+          237,
+          551,
+          584,
+          190,
+          446
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          584,
+          237
+        ],
+        [
+          551,
+          446
+        ],
+        [
+          227,
+          190
+        ]
+      ],
+      "oracle_plan": [
+        [
+          227,
+          237
+        ],
+        [
+          551,
+          446
+        ],
+        [
+          584,
+          190
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-33",
+        "stock": 500,
+        "kerf": 1,
+        "parts": [
+          189,
+          196,
+          57,
+          81,
+          221,
+          233
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          233,
+          196,
+          57
+        ],
+        [
+          221,
+          189,
+          81
+        ]
+      ],
+      "oracle_plan": [
+        [
+          189,
+          81,
+          221
+        ],
+        [
+          196,
+          57,
+          233
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-34",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          57,
+          37,
+          16,
+          36,
+          64,
+          42,
+          16,
+          17
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          64,
+          36
+        ],
+        [
+          57,
+          42
+        ],
+        [
+          37,
+          17,
+          16,
+          16
+        ]
+      ],
+      "oracle_plan": [
+        [
+          57,
+          37
+        ],
+        [
+          16,
+          36,
+          42
+        ],
+        [
+          64,
+          16,
+          17
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-35",
+        "stock": 250,
+        "kerf": 3,
+        "parts": [
+          130,
+          56,
+          76,
+          60,
+          30,
+          152,
+          172,
+          25,
+          164
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          172,
+          60
+        ],
+        [
+          164,
+          76
+        ],
+        [
+          152,
+          56,
+          30
+        ],
+        [
+          130,
+          25
+        ]
+      ],
+      "oracle_plan": [
+        [
+          130,
+          56
+        ],
+        [
+          76,
+          152
+        ],
+        [
+          60,
+          172
+        ],
+        [
+          30,
+          25,
+          164
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-36",
+        "stock": 250,
+        "kerf": 1,
+        "parts": [
+          34,
+          90,
+          118,
+          127,
+          114
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          127,
+          118
+        ],
+        [
+          114,
+          90,
+          34
+        ]
+      ],
+      "oracle_plan": [
+        [
+          34,
+          90,
+          118
+        ],
+        [
+          127,
+          114
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-37",
+        "stock": 100,
+        "kerf": 3,
+        "parts": [
+          22,
+          39,
+          53,
+          53,
+          60
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          60,
+          22
+        ],
+        [
+          53,
+          39
+        ],
+        [
+          53
+        ]
+      ],
+      "oracle_plan": [
+        [
+          22,
+          53
+        ],
+        [
+          39,
+          53
+        ],
+        [
+          60
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-38",
+        "stock": 500,
+        "kerf": 1,
+        "parts": [
+          334,
+          54,
+          51,
+          325,
+          72,
+          66
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          334,
+          72,
+          66
+        ],
+        [
+          325,
+          54,
+          51
+        ]
+      ],
+      "oracle_plan": [
+        [
+          334,
+          54,
+          51
+        ],
+        [
+          325,
+          72,
+          66
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-39",
+        "stock": 100,
+        "kerf": 2,
+        "parts": [
+          64,
+          57,
+          46
+        ]
+      },
+      "bound": 2,
+      "optimum": 3,
+      "production_plan": [
+        [
+          64
+        ],
+        [
+          57
+        ],
+        [
+          46
+        ]
+      ],
+      "oracle_plan": [
+        [
+          64
+        ],
+        [
+          57
+        ],
+        [
+          46
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": false,
+          "distinct_states": 3
+        },
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-40",
+        "stock": 500,
+        "kerf": 1,
+        "parts": [
+          209,
+          92,
+          86,
+          53,
+          295,
+          56,
+          336,
+          329
+        ]
+      },
+      "bound": 3,
+      "optimum": 4,
+      "production_plan": [
+        [
+          336,
+          92,
+          56
+        ],
+        [
+          329,
+          86,
+          53
+        ],
+        [
+          295
+        ],
+        [
+          209
+        ]
+      ],
+      "oracle_plan": [
+        [
+          209
+        ],
+        [
+          92,
+          295
+        ],
+        [
+          86,
+          336
+        ],
+        [
+          53,
+          56,
+          329
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": false,
+          "distinct_states": 4
+        },
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-41",
+        "stock": 100,
+        "kerf": 1,
+        "parts": [
+          41,
+          66,
+          42,
+          68,
+          47,
+          26,
+          69,
+          10
+        ]
+      },
+      "bound": 4,
+      "optimum": 5,
+      "production_plan": [
+        [
+          69,
+          26
+        ],
+        [
+          68,
+          10
+        ],
+        [
+          66
+        ],
+        [
+          47,
+          42
+        ],
+        [
+          41
+        ]
+      ],
+      "oracle_plan": [
+        [
+          41
+        ],
+        [
+          66
+        ],
+        [
+          42,
+          47
+        ],
+        [
+          68,
+          26
+        ],
+        [
+          69,
+          10
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": false,
+          "distinct_states": 6
+        },
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-42",
+        "stock": 250,
+        "kerf": 3,
+        "parts": [
+          136,
+          103,
+          53,
+          112,
+          141,
+          132,
+          59
+        ]
+      },
+      "bound": 3,
+      "optimum": 4,
+      "production_plan": [
+        [
+          141,
+          103
+        ],
+        [
+          136,
+          59
+        ],
+        [
+          132,
+          112
+        ],
+        [
+          53
+        ]
+      ],
+      "oracle_plan": [
+        [
+          136
+        ],
+        [
+          103,
+          53
+        ],
+        [
+          112,
+          132
+        ],
+        [
+          141,
+          59
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": false,
+          "distinct_states": 9
+        },
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 7
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-43",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          288,
+          132,
+          51
+        ]
+      },
+      "bound": 1,
+      "optimum": 1,
+      "production_plan": [
+        [
+          288,
+          132,
+          51
+        ]
+      ],
+      "oracle_plan": [
+        [
+          288,
+          132,
+          51
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 1,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-44",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          272,
+          107,
+          269,
+          331,
+          168,
+          79,
+          149,
+          107
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          331,
+          168
+        ],
+        [
+          272,
+          149,
+          79
+        ],
+        [
+          269,
+          107,
+          107
+        ]
+      ],
+      "oracle_plan": [
+        [
+          272,
+          79,
+          149
+        ],
+        [
+          107,
+          269,
+          107
+        ],
+        [
+          331,
+          168
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-45",
+        "stock": 100,
+        "kerf": 1,
+        "parts": [
+          56,
+          37,
+          31
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          56,
+          37
+        ],
+        [
+          31
+        ]
+      ],
+      "oracle_plan": [
+        [
+          56
+        ],
+        [
+          37,
+          31
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-46",
+        "stock": 1000,
+        "kerf": 1,
+        "parts": [
+          313,
+          574,
+          112,
+          638,
+          150
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          638,
+          313
+        ],
+        [
+          574,
+          150,
+          112
+        ]
+      ],
+      "oracle_plan": [
+        [
+          313,
+          574
+        ],
+        [
+          112,
+          638,
+          150
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-47",
+        "stock": 500,
+        "kerf": 3,
+        "parts": [
+          149,
+          340,
+          195,
+          110,
+          202,
+          256,
+          183,
+          80,
+          85,
+          300
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          340,
+          149
+        ],
+        [
+          300,
+          195
+        ],
+        [
+          256,
+          202
+        ],
+        [
+          183,
+          110,
+          85,
+          80
+        ]
+      ],
+      "oracle_plan": [
+        [
+          149,
+          340
+        ],
+        [
+          195,
+          256
+        ],
+        [
+          110,
+          202,
+          80,
+          85
+        ],
+        [
+          183,
+          300
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-48",
+        "stock": 250,
+        "kerf": 0,
+        "parts": [
+          107,
+          143,
+          152,
+          105,
+          150
+        ]
+      },
+      "bound": 3,
+      "optimum": 4,
+      "production_plan": [
+        [
+          152
+        ],
+        [
+          150
+        ],
+        [
+          143,
+          107
+        ],
+        [
+          105
+        ]
+      ],
+      "oracle_plan": [
+        [
+          107
+        ],
+        [
+          143,
+          105
+        ],
+        [
+          152
+        ],
+        [
+          150
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": false,
+          "distinct_states": 5
+        },
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-49",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          631,
+          375,
+          631,
+          218,
+          458
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          631,
+          218
+        ],
+        [
+          631
+        ],
+        [
+          458,
+          375
+        ]
+      ],
+      "oracle_plan": [
+        [
+          631
+        ],
+        [
+          375,
+          458
+        ],
+        [
+          631,
+          218
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-50",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          11,
+          12,
+          56,
+          32,
+          34
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          56,
+          34
+        ],
+        [
+          32,
+          12,
+          11
+        ]
+      ],
+      "oracle_plan": [
+        [
+          11,
+          56
+        ],
+        [
+          12,
+          32,
+          34
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-51",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          596,
+          330,
+          371,
+          577,
+          191,
+          401
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          596,
+          401
+        ],
+        [
+          577,
+          371
+        ],
+        [
+          330,
+          191
+        ]
+      ],
+      "oracle_plan": [
+        [
+          596
+        ],
+        [
+          330,
+          577
+        ],
+        [
+          371,
+          191,
+          401
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-52",
+        "stock": 100,
+        "kerf": 0,
+        "parts": [
+          43,
+          21,
+          16,
+          35,
+          70
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          70,
+          21
+        ],
+        [
+          43,
+          35,
+          16
+        ]
+      ],
+      "oracle_plan": [
+        [
+          43,
+          21,
+          35
+        ],
+        [
+          16,
+          70
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-53",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          445,
+          481,
+          674
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          674
+        ],
+        [
+          481,
+          445
+        ]
+      ],
+      "oracle_plan": [
+        [
+          445,
+          481
+        ],
+        [
+          674
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-54",
+        "stock": 500,
+        "kerf": 2,
+        "parts": [
+          157,
+          173,
+          56,
+          340
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          340,
+          157
+        ],
+        [
+          173,
+          56
+        ]
+      ],
+      "oracle_plan": [
+        [
+          157,
+          173
+        ],
+        [
+          56,
+          340
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-55",
+        "stock": 250,
+        "kerf": 0,
+        "parts": [
+          157,
+          94,
+          162,
+          103,
+          50,
+          40,
+          87,
+          132,
+          106,
+          153
+        ]
+      },
+      "bound": 5,
+      "optimum": 5,
+      "production_plan": [
+        [
+          162,
+          87
+        ],
+        [
+          157,
+          50,
+          40
+        ],
+        [
+          153,
+          94
+        ],
+        [
+          132,
+          106
+        ],
+        [
+          103
+        ]
+      ],
+      "oracle_plan": [
+        [
+          157
+        ],
+        [
+          94,
+          103
+        ],
+        [
+          162,
+          87
+        ],
+        [
+          50,
+          40,
+          153
+        ],
+        [
+          132,
+          106
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-56",
+        "stock": 250,
+        "kerf": 1,
+        "parts": [
+          156,
+          134,
+          106,
+          130,
+          55,
+          43
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          156,
+          55
+        ],
+        [
+          134,
+          106
+        ],
+        [
+          130,
+          43
+        ]
+      ],
+      "oracle_plan": [
+        [
+          156
+        ],
+        [
+          134,
+          106
+        ],
+        [
+          130,
+          55,
+          43
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-57",
+        "stock": 1000,
+        "kerf": 2,
+        "parts": [
+          476,
+          385,
+          458,
+          294,
+          355,
+          132,
+          436,
+          581
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          581,
+          385
+        ],
+        [
+          476,
+          458
+        ],
+        [
+          436,
+          355,
+          132
+        ],
+        [
+          294
+        ]
+      ],
+      "oracle_plan": [
+        [
+          476
+        ],
+        [
+          385,
+          458
+        ],
+        [
+          294,
+          132,
+          436
+        ],
+        [
+          355,
+          581
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-58",
+        "stock": 500,
+        "kerf": 0,
+        "parts": [
+          87,
+          294,
+          291,
+          310,
+          103
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          310,
+          103,
+          87
+        ],
+        [
+          294
+        ],
+        [
+          291
+        ]
+      ],
+      "oracle_plan": [
+        [
+          87,
+          294
+        ],
+        [
+          291
+        ],
+        [
+          310,
+          103
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-59",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          230,
+          115,
+          567,
+          270,
+          586,
+          212,
+          102,
+          627,
+          106
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          627,
+          270,
+          102
+        ],
+        [
+          586,
+          230,
+          115
+        ],
+        [
+          567,
+          212,
+          106
+        ]
+      ],
+      "oracle_plan": [
+        [
+          230,
+          115,
+          567
+        ],
+        [
+          270,
+          586,
+          102
+        ],
+        [
+          212,
+          627,
+          106
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-60",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          699,
+          207,
+          570,
+          574,
+          271,
+          696,
+          574,
+          514
+        ]
+      },
+      "bound": 5,
+      "optimum": 6,
+      "production_plan": [
+        [
+          699,
+          271
+        ],
+        [
+          696,
+          207
+        ],
+        [
+          574
+        ],
+        [
+          574
+        ],
+        [
+          570
+        ],
+        [
+          514
+        ]
+      ],
+      "oracle_plan": [
+        [
+          699
+        ],
+        [
+          207,
+          570
+        ],
+        [
+          574
+        ],
+        [
+          271,
+          696
+        ],
+        [
+          574
+        ],
+        [
+          514
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 5,
+          "feasible": false,
+          "distinct_states": 6
+        },
+        {
+          "rolls": 6,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-61",
+        "stock": 1000,
+        "kerf": 2,
+        "parts": [
+          671,
+          653,
+          465,
+          303,
+          455,
+          319,
+          251,
+          143,
+          256,
+          280
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          671,
+          319
+        ],
+        [
+          653,
+          303
+        ],
+        [
+          465,
+          455
+        ],
+        [
+          280,
+          256,
+          251,
+          143
+        ]
+      ],
+      "oracle_plan": [
+        [
+          671,
+          303
+        ],
+        [
+          653,
+          319
+        ],
+        [
+          465,
+          455
+        ],
+        [
+          251,
+          143,
+          256,
+          280
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-62",
+        "stock": 250,
+        "kerf": 2,
+        "parts": [
+          142,
+          96,
+          90,
+          116,
+          46,
+          88,
+          41
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          142,
+          96
+        ],
+        [
+          116,
+          90
+        ],
+        [
+          88,
+          46,
+          41
+        ]
+      ],
+      "oracle_plan": [
+        [
+          142
+        ],
+        [
+          96,
+          90,
+          46
+        ],
+        [
+          116,
+          88,
+          41
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 7
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-63",
+        "stock": 1000,
+        "kerf": 2,
+        "parts": [
+          202,
+          690,
+          333,
+          625
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          690,
+          202
+        ],
+        [
+          625,
+          333
+        ]
+      ],
+      "oracle_plan": [
+        [
+          202,
+          690
+        ],
+        [
+          333,
+          625
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-64",
+        "stock": 250,
+        "kerf": 3,
+        "parts": [
+          58,
+          154,
+          116,
+          100
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          154,
+          58
+        ],
+        [
+          116,
+          100
+        ]
+      ],
+      "oracle_plan": [
+        [
+          58,
+          154
+        ],
+        [
+          116,
+          100
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-65",
+        "stock": 250,
+        "kerf": 0,
+        "parts": [
+          117,
+          131,
+          121,
+          107,
+          165,
+          131,
+          86,
+          50,
+          60
+        ]
+      },
+      "bound": 4,
+      "optimum": 5,
+      "production_plan": [
+        [
+          165,
+          60
+        ],
+        [
+          131,
+          117
+        ],
+        [
+          131,
+          107
+        ],
+        [
+          121,
+          86
+        ],
+        [
+          50
+        ]
+      ],
+      "oracle_plan": [
+        [
+          117
+        ],
+        [
+          131,
+          107
+        ],
+        [
+          121,
+          86
+        ],
+        [
+          165
+        ],
+        [
+          131,
+          50,
+          60
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": false,
+          "distinct_states": 16
+        },
+        {
+          "rolls": 5,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-66",
+        "stock": 500,
+        "kerf": 1,
+        "parts": [
+          155,
+          128,
+          230,
+          65,
+          190,
+          107,
+          149,
+          333
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          333,
+          155
+        ],
+        [
+          230,
+          190,
+          65
+        ],
+        [
+          149,
+          128,
+          107
+        ]
+      ],
+      "oracle_plan": [
+        [
+          155,
+          230
+        ],
+        [
+          128,
+          65,
+          190,
+          107
+        ],
+        [
+          149,
+          333
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-67",
+        "stock": 250,
+        "kerf": 2,
+        "parts": [
+          146,
+          63,
+          66
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          146,
+          66
+        ],
+        [
+          63
+        ]
+      ],
+      "oracle_plan": [
+        [
+          146
+        ],
+        [
+          63,
+          66
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-68",
+        "stock": 500,
+        "kerf": 1,
+        "parts": [
+          55,
+          152,
+          110
+        ]
+      },
+      "bound": 1,
+      "optimum": 1,
+      "production_plan": [
+        [
+          152,
+          110,
+          55
+        ]
+      ],
+      "oracle_plan": [
+        [
+          55,
+          152,
+          110
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 1,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-69",
+        "stock": 100,
+        "kerf": 1,
+        "parts": [
+          67,
+          45,
+          64,
+          24,
+          23,
+          24
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          67,
+          24
+        ],
+        [
+          64,
+          24
+        ],
+        [
+          45,
+          23
+        ]
+      ],
+      "oracle_plan": [
+        [
+          67
+        ],
+        [
+          45,
+          24,
+          23
+        ],
+        [
+          64,
+          24
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-70",
+        "stock": 1000,
+        "kerf": 1,
+        "parts": [
+          583,
+          563,
+          670,
+          113
+        ]
+      },
+      "bound": 2,
+      "optimum": 3,
+      "production_plan": [
+        [
+          670,
+          113
+        ],
+        [
+          583
+        ],
+        [
+          563
+        ]
+      ],
+      "oracle_plan": [
+        [
+          583
+        ],
+        [
+          563
+        ],
+        [
+          670,
+          113
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": false,
+          "distinct_states": 3
+        },
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 4
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-71",
+        "stock": 250,
+        "kerf": 1,
+        "parts": [
+          110,
+          138,
+          91,
+          57,
+          68
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          138,
+          110
+        ],
+        [
+          91,
+          68,
+          57
+        ]
+      ],
+      "oracle_plan": [
+        [
+          110,
+          138
+        ],
+        [
+          91,
+          57,
+          68
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-72",
+        "stock": 1000,
+        "kerf": 1,
+        "parts": [
+          377,
+          220,
+          622,
+          579,
+          484,
+          356
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          622,
+          377
+        ],
+        [
+          579,
+          356
+        ],
+        [
+          484,
+          220
+        ]
+      ],
+      "oracle_plan": [
+        [
+          377,
+          622
+        ],
+        [
+          220,
+          579
+        ],
+        [
+          484,
+          356
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-73",
+        "stock": 1000,
+        "kerf": 1,
+        "parts": [
+          664,
+          270,
+          679,
+          329,
+          579
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          679,
+          270
+        ],
+        [
+          664,
+          329
+        ],
+        [
+          579
+        ]
+      ],
+      "oracle_plan": [
+        [
+          664
+        ],
+        [
+          270,
+          679
+        ],
+        [
+          329,
+          579
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-74",
+        "stock": 250,
+        "kerf": 2,
+        "parts": [
+          67,
+          79,
+          126,
+          123,
+          102,
+          111,
+          40,
+          49,
+          51,
+          53
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          126,
+          111
+        ],
+        [
+          123,
+          102
+        ],
+        [
+          79,
+          67,
+          53,
+          40
+        ],
+        [
+          51,
+          49
+        ]
+      ],
+      "oracle_plan": [
+        [
+          67,
+          79
+        ],
+        [
+          126,
+          102
+        ],
+        [
+          123,
+          111
+        ],
+        [
+          40,
+          49,
+          51,
+          53
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 10
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-75",
+        "stock": 500,
+        "kerf": 2,
+        "parts": [
+          280,
+          213,
+          331
+        ]
+      },
+      "bound": 2,
+      "optimum": 2,
+      "production_plan": [
+        [
+          331
+        ],
+        [
+          280,
+          213
+        ]
+      ],
+      "oracle_plan": [
+        [
+          280,
+          213
+        ],
+        [
+          331
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 3
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-76",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          357,
+          224,
+          656,
+          256,
+          560,
+          211,
+          532,
+          612
+        ]
+      },
+      "bound": 4,
+      "optimum": 4,
+      "production_plan": [
+        [
+          656,
+          256
+        ],
+        [
+          612,
+          357
+        ],
+        [
+          560,
+          224
+        ],
+        [
+          532,
+          211
+        ]
+      ],
+      "oracle_plan": [
+        [
+          357,
+          560
+        ],
+        [
+          224,
+          656
+        ],
+        [
+          256,
+          532
+        ],
+        [
+          211,
+          612
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 8
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-77",
+        "stock": 1000,
+        "kerf": 0,
+        "parts": [
+          208,
+          453,
+          175,
+          664,
+          603
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          664,
+          208
+        ],
+        [
+          603,
+          175
+        ],
+        [
+          453
+        ]
+      ],
+      "oracle_plan": [
+        [
+          208,
+          453
+        ],
+        [
+          175,
+          664
+        ],
+        [
+          603
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-78",
+        "stock": 100,
+        "kerf": 3,
+        "parts": [
+          44,
+          38,
+          67,
+          23,
+          37,
+          11
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          67,
+          23
+        ],
+        [
+          44,
+          38,
+          11
+        ],
+        [
+          37
+        ]
+      ],
+      "oracle_plan": [
+        [
+          44
+        ],
+        [
+          38,
+          37,
+          11
+        ],
+        [
+          67,
+          23
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-79",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          147,
+          555,
+          673,
+          451,
+          697
+        ]
+      },
+      "bound": 3,
+      "optimum": 4,
+      "production_plan": [
+        [
+          697,
+          147
+        ],
+        [
+          673
+        ],
+        [
+          555
+        ],
+        [
+          451
+        ]
+      ],
+      "oracle_plan": [
+        [
+          147,
+          555
+        ],
+        [
+          673
+        ],
+        [
+          451
+        ],
+        [
+          697
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": false,
+          "distinct_states": 4
+        },
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 5
+        }
+      ]
+    },
+    {
+      "input": {
+        "lot": "stress-80",
+        "stock": 1000,
+        "kerf": 3,
+        "parts": [
+          183,
+          469,
+          307,
+          282,
+          309,
+          157,
+          154,
+          603,
+          326
+        ]
+      },
+      "bound": 3,
+      "optimum": 3,
+      "production_plan": [
+        [
+          603,
+          326
+        ],
+        [
+          469,
+          309,
+          183
+        ],
+        [
+          307,
+          282,
+          157,
+          154
+        ]
+      ],
+      "oracle_plan": [
+        [
+          183,
+          469,
+          307
+        ],
+        [
+          282,
+          309,
+          157,
+          154
+        ],
+        [
+          603,
+          326
+        ]
+      ],
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ]
+    }
+  ]
+}

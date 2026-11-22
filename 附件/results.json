@@ -1,0 +1,157 @@
+{
+  "runs": [
+    {
+      "lot": "试样卷",
+      "capacity": 1000,
+      "kerf": 0,
+      "first_fit_decreasing": [
+        [
+          600,
+          300
+        ],
+        [
+          500,
+          200,
+          200
+        ],
+        [
+          200
+        ]
+      ],
+      "lower_bound": 2,
+      "search": [
+        {
+          "rolls": 2,
+          "feasible": true,
+          "distinct_states": 9
+        }
+      ],
+      "optimum": [
+        [
+          600,
+          200,
+          200
+        ],
+        [
+          500,
+          300,
+          200
+        ]
+      ],
+      "offcut_lengths": [
+        0,
+        0
+      ]
+    },
+    {
+      "lot": "同一订单加刀缝",
+      "capacity": 1000,
+      "kerf": 2,
+      "first_fit_decreasing": [
+        [
+          600,
+          300
+        ],
+        [
+          500,
+          200,
+          200
+        ],
+        [
+          200
+        ]
+      ],
+      "lower_bound": 3,
+      "search": [
+        {
+          "rolls": 3,
+          "feasible": true,
+          "distinct_states": 6
+        }
+      ],
+      "optimum": [
+        [
+          600,
+          300
+        ],
+        [
+          500,
+          200,
+          200
+        ],
+        [
+          200
+        ]
+      ],
+      "offcut_lengths": [
+        98,
+        96,
+        800
+      ]
+    },
+    {
+      "lot": "异规格短单",
+      "capacity": 1200,
+      "kerf": 3,
+      "first_fit_decreasing": [
+        [
+          710,
+          480
+        ],
+        [
+          680,
+          510
+        ],
+        [
+          470,
+          300,
+          290,
+          120
+        ],
+        [
+          220,
+          215,
+          95,
+          85
+        ]
+      ],
+      "lower_bound": 4,
+      "search": [
+        {
+          "rolls": 4,
+          "feasible": true,
+          "distinct_states": 12
+        }
+      ],
+      "optimum": [
+        [
+          710,
+          480
+        ],
+        [
+          680,
+          510
+        ],
+        [
+          470,
+          300,
+          290,
+          120
+        ],
+        [
+          220,
+          215,
+          95,
+          85
+        ]
+      ],
+      "offcut_lengths": [
+        7,
+        7,
+        11,
+        576
+      ]
+    }
+  ],
+  "oversize_test": "Quantity/length outside supported range"
+}

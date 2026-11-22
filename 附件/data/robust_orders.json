@@ -1,0 +1,1096 @@
+[
+  {
+    "lot": "内点刀缝陷阱",
+    "stock": 100,
+    "trim_left": 0,
+    "trim_right": 0,
+    "kerf_min": 2,
+    "kerf_max": 4,
+    "parts": [
+      49,
+      47
+    ]
+  },
+  {
+    "lot": "端储备迫使分卷",
+    "stock": 100,
+    "trim_left": 4,
+    "trim_right": 4,
+    "kerf_min": 0,
+    "kerf_max": 0,
+    "parts": [
+      48,
+      48
+    ]
+  },
+  {
+    "lot": "短余尾无法分离",
+    "stock": 100,
+    "trim_left": 4,
+    "trim_right": 3,
+    "kerf_min": 1,
+    "kerf_max": 3,
+    "parts": [
+      92
+    ]
+  },
+  {
+    "lot": "恰好抵端无尾切",
+    "stock": 100,
+    "trim_left": 4,
+    "trim_right": 3,
+    "kerf_min": 1,
+    "kerf_max": 3,
+    "parts": [
+      93
+    ]
+  },
+  {
+    "lot": "长件优先多开一卷",
+    "stock": 1014,
+    "trim_left": 6,
+    "trim_right": 8,
+    "kerf_min": 0,
+    "kerf_max": 0,
+    "parts": [
+      600,
+      500,
+      300,
+      200,
+      200,
+      200
+    ]
+  },
+  {
+    "lot": "三卷长度虚满",
+    "stock": 1014,
+    "trim_left": 6,
+    "trim_right": 8,
+    "kerf_min": 2,
+    "kerf_max": 2,
+    "parts": [
+      488,
+      488,
+      488,
+      358,
+      338,
+      328,
+      288,
+      214
+    ]
+  },
+  {
+    "lot": "随机01",
+    "stock": 120,
+    "trim_left": 5,
+    "trim_right": 5,
+    "kerf_min": 1,
+    "kerf_max": 6,
+    "parts": [
+      36,
+      50,
+      76,
+      45
+    ]
+  },
+  {
+    "lot": "随机02",
+    "stock": 120,
+    "trim_left": 0,
+    "trim_right": 5,
+    "kerf_min": 1,
+    "kerf_max": 5,
+    "parts": [
+      62,
+      14,
+      86,
+      80,
+      32
+    ]
+  },
+  {
+    "lot": "随机03",
+    "stock": 120,
+    "trim_left": 0,
+    "trim_right": 3,
+    "kerf_min": 0,
+    "kerf_max": 1,
+    "parts": [
+      70,
+      16,
+      68,
+      50,
+      31,
+      35
+    ]
+  },
+  {
+    "lot": "随机04",
+    "stock": 200,
+    "trim_left": 3,
+    "trim_right": 2,
+    "kerf_min": 0,
+    "kerf_max": 4,
+    "parts": [
+      86,
+      87,
+      154,
+      60,
+      27,
+      109,
+      94
+    ]
+  },
+  {
+    "lot": "随机05",
+    "stock": 80,
+    "trim_left": 0,
+    "trim_right": 4,
+    "kerf_min": 3,
+    "kerf_max": 3,
+    "parts": [
+      23,
+      59,
+      12,
+      60,
+      12,
+      26,
+      13,
+      48
+    ]
+  },
+  {
+    "lot": "随机06",
+    "stock": 200,
+    "trim_left": 3,
+    "trim_right": 5,
+    "kerf_min": 2,
+    "kerf_max": 6,
+    "parts": [
+      110,
+      82,
+      57,
+      113,
+      29,
+      83,
+      45,
+      56,
+      96
+    ]
+  },
+  {
+    "lot": "随机07",
+    "stock": 160,
+    "trim_left": 6,
+    "trim_right": 7,
+    "kerf_min": 1,
+    "kerf_max": 6,
+    "parts": [
+      101,
+      96,
+      30,
+      72,
+      117,
+      39,
+      53,
+      41,
+      44,
+      114
+    ]
+  },
+  {
+    "lot": "随机08",
+    "stock": 80,
+    "trim_left": 2,
+    "trim_right": 8,
+    "kerf_min": 1,
+    "kerf_max": 5,
+    "parts": [
+      60,
+      49,
+      46,
+      52
+    ]
+  },
+  {
+    "lot": "随机09",
+    "stock": 80,
+    "trim_left": 2,
+    "trim_right": 5,
+    "kerf_min": 2,
+    "kerf_max": 5,
+    "parts": [
+      57,
+      41,
+      15,
+      43,
+      21
+    ]
+  },
+  {
+    "lot": "随机10",
+    "stock": 200,
+    "trim_left": 4,
+    "trim_right": 6,
+    "kerf_min": 2,
+    "kerf_max": 6,
+    "parts": [
+      115,
+      153,
+      101,
+      94,
+      132,
+      53
+    ]
+  },
+  {
+    "lot": "随机11",
+    "stock": 120,
+    "trim_left": 7,
+    "trim_right": 5,
+    "kerf_min": 2,
+    "kerf_max": 5,
+    "parts": [
+      53,
+      36,
+      37,
+      38,
+      73,
+      34,
+      91
+    ]
+  },
+  {
+    "lot": "随机12",
+    "stock": 160,
+    "trim_left": 3,
+    "trim_right": 1,
+    "kerf_min": 0,
+    "kerf_max": 0,
+    "parts": [
+      77,
+      31,
+      116,
+      66,
+      54,
+      73,
+      117,
+      40
+    ]
+  },
+  {
+    "lot": "随机13",
+    "stock": 160,
+    "trim_left": 8,
+    "trim_right": 7,
+    "kerf_min": 2,
+    "kerf_max": 3,
+    "parts": [
+      78,
+      56,
+      112,
+      74,
+      92,
+      119,
+      84,
+      87,
+      116
+    ]
+  },
+  {
+    "lot": "随机14",
+    "stock": 160,
+    "trim_left": 7,
+    "trim_right": 5,
+    "kerf_min": 2,
+    "kerf_max": 4,
+    "parts": [
+      82,
+      51,
+      73,
+      81,
+      98,
+      43,
+      54,
+      121,
+      48,
+      113
+    ]
+  },
+  {
+    "lot": "随机15",
+    "stock": 200,
+    "trim_left": 1,
+    "trim_right": 6,
+    "kerf_min": 1,
+    "kerf_max": 1,
+    "parts": [
+      28,
+      27,
+      148,
+      153
+    ]
+  },
+  {
+    "lot": "随机16",
+    "stock": 120,
+    "trim_left": 5,
+    "trim_right": 1,
+    "kerf_min": 3,
+    "kerf_max": 6,
+    "parts": [
+      38,
+      58,
+      63,
+      23,
+      20
+    ]
+  },
+  {
+    "lot": "随机17",
+    "stock": 200,
+    "trim_left": 8,
+    "trim_right": 1,
+    "kerf_min": 3,
+    "kerf_max": 4,
+    "parts": [
+      67,
+      38,
+      41,
+      81,
+      61,
+      123
+    ]
+  },
+  {
+    "lot": "随机18",
+    "stock": 200,
+    "trim_left": 4,
+    "trim_right": 7,
+    "kerf_min": 2,
+    "kerf_max": 5,
+    "parts": [
+      76,
+      143,
+      102,
+      44,
+      98,
+      129,
+      79
+    ]
+  },
+  {
+    "lot": "随机19",
+    "stock": 200,
+    "trim_left": 5,
+    "trim_right": 5,
+    "kerf_min": 0,
+    "kerf_max": 5,
+    "parts": [
+      62,
+      74,
+      37,
+      104,
+      49,
+      133,
+      46,
+      103
+    ]
+  },
+  {
+    "lot": "随机20",
+    "stock": 200,
+    "trim_left": 0,
+    "trim_right": 0,
+    "kerf_min": 0,
+    "kerf_max": 3,
+    "parts": [
+      118,
+      55,
+      134,
+      138,
+      50,
+      25,
+      55,
+      45,
+      59
+    ]
+  },
+  {
+    "lot": "随机21",
+    "stock": 160,
+    "trim_left": 1,
+    "trim_right": 5,
+    "kerf_min": 0,
+    "kerf_max": 1,
+    "parts": [
+      20,
+      95,
+      38,
+      29,
+      85,
+      66,
+      36,
+      76,
+      80,
+      20
+    ]
+  },
+  {
+    "lot": "随机22",
+    "stock": 80,
+    "trim_left": 5,
+    "trim_right": 8,
+    "kerf_min": 0,
+    "kerf_max": 3,
+    "parts": [
+      42,
+      32,
+      13,
+      45
+    ]
+  },
+  {
+    "lot": "随机23",
+    "stock": 160,
+    "trim_left": 1,
+    "trim_right": 5,
+    "kerf_min": 1,
+    "kerf_max": 2,
+    "parts": [
+      41,
+      110,
+      73,
+      75,
+      21
+    ]
+  },
+  {
+    "lot": "随机24",
+    "stock": 200,
+    "trim_left": 1,
+    "trim_right": 2,
+    "kerf_min": 2,
+    "kerf_max": 5,
+    "parts": [
+      118,
+      63,
+      107,
+      127,
+      98,
+      108
+    ]
+  },
+  {
+    "lot": "随机25",
+    "stock": 160,
+    "trim_left": 8,
+    "trim_right": 2,
+    "kerf_min": 3,
+    "kerf_max": 4,
+    "parts": [
+      61,
+      82,
+      111,
+      92,
+      70,
+      21,
+      115
+    ]
+  },
+  {
+    "lot": "随机26",
+    "stock": 120,
+    "trim_left": 3,
+    "trim_right": 5,
+    "kerf_min": 2,
+    "kerf_max": 6,
+    "parts": [
+      36,
+      57,
+      49,
+      50,
+      22,
+      70,
+      67,
+      59
+    ]
+  },
+  {
+    "lot": "随机27",
+    "stock": 160,
+    "trim_left": 7,
+    "trim_right": 7,
+    "kerf_min": 1,
+    "kerf_max": 5,
+    "parts": [
+      30,
+      103,
+      26,
+      93,
+      56,
+      81,
+      49,
+      115,
+      102
+    ]
+  },
+  {
+    "lot": "随机28",
+    "stock": 80,
+    "trim_left": 7,
+    "trim_right": 7,
+    "kerf_min": 3,
+    "kerf_max": 5,
+    "parts": [
+      56,
+      16,
+      44,
+      45,
+      26,
+      15,
+      41,
+      41,
+      9,
+      24
+    ]
+  },
+  {
+    "lot": "随机29",
+    "stock": 200,
+    "trim_left": 8,
+    "trim_right": 1,
+    "kerf_min": 3,
+    "kerf_max": 3,
+    "parts": [
+      100,
+      71,
+      56,
+      151
+    ]
+  },
+  {
+    "lot": "随机30",
+    "stock": 160,
+    "trim_left": 4,
+    "trim_right": 2,
+    "kerf_min": 0,
+    "kerf_max": 5,
+    "parts": [
+      20,
+      45,
+      72,
+      65,
+      73
+    ]
+  },
+  {
+    "lot": "随机31",
+    "stock": 80,
+    "trim_left": 5,
+    "trim_right": 1,
+    "kerf_min": 1,
+    "kerf_max": 4,
+    "parts": [
+      24,
+      44,
+      58,
+      50,
+      32,
+      60
+    ]
+  },
+  {
+    "lot": "随机32",
+    "stock": 120,
+    "trim_left": 8,
+    "trim_right": 7,
+    "kerf_min": 3,
+    "kerf_max": 7,
+    "parts": [
+      66,
+      60,
+      69,
+      19,
+      83,
+      29,
+      59
+    ]
+  },
+  {
+    "lot": "随机33",
+    "stock": 160,
+    "trim_left": 6,
+    "trim_right": 6,
+    "kerf_min": 3,
+    "kerf_max": 7,
+    "parts": [
+      22,
+      59,
+      49,
+      37,
+      45,
+      30,
+      85,
+      42
+    ]
+  },
+  {
+    "lot": "随机34",
+    "stock": 160,
+    "trim_left": 2,
+    "trim_right": 0,
+    "kerf_min": 2,
+    "kerf_max": 3,
+    "parts": [
+      40,
+      37,
+      56,
+      93,
+      118,
+      118,
+      24,
+      114,
+      114
+    ]
+  },
+  {
+    "lot": "随机35",
+    "stock": 80,
+    "trim_left": 2,
+    "trim_right": 7,
+    "kerf_min": 3,
+    "kerf_max": 3,
+    "parts": [
+      51,
+      61,
+      10,
+      47,
+      9,
+      13,
+      47,
+      23,
+      50,
+      24
+    ]
+  },
+  {
+    "lot": "随机36",
+    "stock": 160,
+    "trim_left": 8,
+    "trim_right": 0,
+    "kerf_min": 3,
+    "kerf_max": 8,
+    "parts": [
+      68,
+      101,
+      61,
+      80
+    ]
+  },
+  {
+    "lot": "随机37",
+    "stock": 200,
+    "trim_left": 2,
+    "trim_right": 5,
+    "kerf_min": 0,
+    "kerf_max": 4,
+    "parts": [
+      141,
+      126,
+      152,
+      136,
+      93
+    ]
+  },
+  {
+    "lot": "随机38",
+    "stock": 200,
+    "trim_left": 8,
+    "trim_right": 1,
+    "kerf_min": 0,
+    "kerf_max": 5,
+    "parts": [
+      37,
+      51,
+      124,
+      151,
+      31,
+      127
+    ]
+  },
+  {
+    "lot": "随机39",
+    "stock": 80,
+    "trim_left": 8,
+    "trim_right": 3,
+    "kerf_min": 2,
+    "kerf_max": 4,
+    "parts": [
+      47,
+      9,
+      20,
+      61,
+      42,
+      50,
+      23
+    ]
+  },
+  {
+    "lot": "随机40",
+    "stock": 120,
+    "trim_left": 4,
+    "trim_right": 4,
+    "kerf_min": 1,
+    "kerf_max": 2,
+    "parts": [
+      18,
+      21,
+      30,
+      45,
+      36,
+      25,
+      28,
+      42
+    ]
+  },
+  {
+    "lot": "随机41",
+    "stock": 80,
+    "trim_left": 0,
+    "trim_right": 7,
+    "kerf_min": 0,
+    "kerf_max": 5,
+    "parts": [
+      27,
+      50,
+      53,
+      25,
+      51,
+      10,
+      59,
+      50,
+      17
+    ]
+  },
+  {
+    "lot": "随机42",
+    "stock": 80,
+    "trim_left": 6,
+    "trim_right": 6,
+    "kerf_min": 2,
+    "kerf_max": 7,
+    "parts": [
+      29,
+      16,
+      44,
+      29,
+      34,
+      40,
+      54,
+      42,
+      54,
+      25
+    ]
+  },
+  {
+    "lot": "随机43",
+    "stock": 200,
+    "trim_left": 2,
+    "trim_right": 2,
+    "kerf_min": 1,
+    "kerf_max": 5,
+    "parts": [
+      89,
+      95,
+      32,
+      111
+    ]
+  },
+  {
+    "lot": "随机44",
+    "stock": 120,
+    "trim_left": 7,
+    "trim_right": 8,
+    "kerf_min": 1,
+    "kerf_max": 2,
+    "parts": [
+      39,
+      87,
+      56,
+      19,
+      52
+    ]
+  },
+  {
+    "lot": "随机45",
+    "stock": 160,
+    "trim_left": 5,
+    "trim_right": 6,
+    "kerf_min": 2,
+    "kerf_max": 7,
+    "parts": [
+      42,
+      116,
+      108,
+      28,
+      108,
+      82
+    ]
+  },
+  {
+    "lot": "随机46",
+    "stock": 160,
+    "trim_left": 8,
+    "trim_right": 1,
+    "kerf_min": 0,
+    "kerf_max": 1,
+    "parts": [
+      73,
+      121,
+      61,
+      36,
+      32,
+      63,
+      67
+    ]
+  },
+  {
+    "lot": "随机47",
+    "stock": 120,
+    "trim_left": 5,
+    "trim_right": 1,
+    "kerf_min": 0,
+    "kerf_max": 2,
+    "parts": [
+      73,
+      45,
+      49,
+      91,
+      92,
+      25,
+      81,
+      87
+    ]
+  },
+  {
+    "lot": "随机48",
+    "stock": 120,
+    "trim_left": 8,
+    "trim_right": 3,
+    "kerf_min": 1,
+    "kerf_max": 1,
+    "parts": [
+      51,
+      40,
+      75,
+      29,
+      43,
+      88,
+      58,
+      27,
+      25
+    ]
+  },
+  {
+    "lot": "随机49",
+    "stock": 80,
+    "trim_left": 0,
+    "trim_right": 5,
+    "kerf_min": 3,
+    "kerf_max": 7,
+    "parts": [
+      13,
+      53,
+      53,
+      20,
+      52,
+      61,
+      50,
+      24,
+      14,
+      10
+    ]
+  },
+  {
+    "lot": "随机50",
+    "stock": 80,
+    "trim_left": 3,
+    "trim_right": 5,
+    "kerf_min": 1,
+    "kerf_max": 6,
+    "parts": [
+      48,
+      39,
+      58,
+      43
+    ]
+  },
+  {
+    "lot": "随机51",
+    "stock": 200,
+    "trim_left": 0,
+    "trim_right": 2,
+    "kerf_min": 1,
+    "kerf_max": 5,
+    "parts": [
+      66,
+      96,
+      101,
+      136,
+      109
+    ]
+  },
+  {
+    "lot": "随机52",
+    "stock": 120,
+    "trim_left": 3,
+    "trim_right": 2,
+    "kerf_min": 0,
+    "kerf_max": 5,
+    "parts": [
+      89,
+      75,
+      60,
+      42,
+      62,
+      78
+    ]
+  },
+  {
+    "lot": "随机53",
+    "stock": 120,
+    "trim_left": 0,
+    "trim_right": 8,
+    "kerf_min": 3,
+    "kerf_max": 8,
+    "parts": [
+      22,
+      86,
+      50,
+      88,
+      88,
+      47,
+      41
+    ]
+  },
+  {
+    "lot": "随机54",
+    "stock": 80,
+    "trim_left": 3,
+    "trim_right": 2,
+    "kerf_min": 3,
+    "kerf_max": 3,
+    "parts": [
+      59,
+      16,
+      14,
+      24,
+      38,
+      12,
+      10,
+      13
+    ]
+  },
+  {
+    "lot": "随机55",
+    "stock": 80,
+    "trim_left": 7,
+    "trim_right": 6,
+    "kerf_min": 1,
+    "kerf_max": 4,
+    "parts": [
+      13,
+      57,
+      12,
+      20,
+      33,
+      15,
+      51,
+      11,
+      11
+    ]
+  },
+  {
+    "lot": "随机56",
+    "stock": 160,
+    "trim_left": 5,
+    "trim_right": 1,
+    "kerf_min": 0,
+    "kerf_max": 5,
+    "parts": [
+      39,
+      96,
+      25,
+      87,
+      48,
+      117,
+      112,
+      106,
+      98,
+      86
+    ]
+  },
+  {
+    "lot": "随机57",
+    "stock": 160,
+    "trim_left": 8,
+    "trim_right": 2,
+    "kerf_min": 3,
+    "kerf_max": 3,
+    "parts": [
+      47,
+      32,
+      29,
+      39
+    ]
+  },
+  {
+    "lot": "随机58",
+    "stock": 120,
+    "trim_left": 4,
+    "trim_right": 2,
+    "kerf_min": 0,
+    "kerf_max": 3,
+    "parts": [
+      15,
+      21,
+      20,
+      50,
+      57
+    ]
+  },
+  {
+    "lot": "随机59",
+    "stock": 160,
+    "trim_left": 8,
+    "trim_right": 0,
+    "kerf_min": 2,
+    "kerf_max": 7,
+    "parts": [
+      28,
+      118,
+      112,
+      64,
+      97,
+      112
+    ]
+  },
+  {
+    "lot": "随机60",
+    "stock": 160,
+    "trim_left": 6,
+    "trim_right": 3,
+    "kerf_min": 2,
+    "kerf_max": 2,
+    "parts": [
+      112,
+      46,
+      24,
+      80,
+      103,
+      54,
+      29
+    ]
+  }
+]
